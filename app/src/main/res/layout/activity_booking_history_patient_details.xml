@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <include layout="@layout/layout_toolbar" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Booking Id"
+                        android:textColor="@color/small_heading_color"
+                        android:textSize="@dimen/small_heading_size" />
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:id="@+id/booking_id_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="123456"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Booked at"
+                        android:textColor="@color/small_heading_color"
+                        android:textSize="@dimen/small_heading_size" />
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:id="@+id/booked_at_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10-sep-2016"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/view_divider" /> -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Patient Name"
+                    android:textColor="@color/small_heading_color"
+                    android:textSize="@dimen/small_heading_size" />
+
+                <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                    android:id="@+id/patient_name_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rahul Verma"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Patient Age"
+                        android:textColor="@color/small_heading_color"
+                        android:textSize="@dimen/small_heading_size" />
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:id="@+id/patient_age_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="Patient Gender"
+                        android:textColor="@color/small_heading_color"
+                        android:textSize="@dimen/small_heading_size" />
+
+                    <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                        android:id="@+id/patient_gender_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distance"
+                    android:textColor="@color/small_heading_color"
+                    android:textSize="@dimen/small_heading_size"
+
+                    />
+
+                <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                    android:id="@+id/distance_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 KM"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Symptoms"
+                android:textColor="@color/small_heading_color"
+                android:textSize="@dimen/small_heading_size" />
+
+            <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                android:id="@+id/symptoms_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:text="This is the symptom jhbsdjhjhebfhwjbhbw" />
+
+
+            <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Instructions"
+                android:textColor="@color/small_heading_color"
+                android:textSize="@dimen/small_heading_size" />
+
+            <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+                android:id="@+id/instruction_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:text="This is the symptom jhbsdjhjhebfhwjbhbw" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

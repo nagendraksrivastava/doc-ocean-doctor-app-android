@@ -1,0 +1,114 @@
+<resources>
+
+    <string name="tab_day">Day</string>
+    <string name="tab_time">Time</string>
+    <string name="brand_name">DOC-OCEAN</string>
+    <string name="text.expert">EXPERTS</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <string-array name="days_array">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+
+
+    <string name="app_name">Carer</string>
+    <string name="tagline">A DOC-OCEAN initiative</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_bar.login">Login</string>
+    <string name="action_bar.signup">Signup</string>
+    <string name="action_bar.terms_and_conditions">Terms and Conditions</string>
+    <string name="text.refer_friend">Refer Friend</string>
+    <string name="google_map_debug_api_key">AIzaSyBVky0iHFH05QEwocIj-tYUof8F9Of_j7c</string>
+    <string name="select_profession">Select profession</string>
+    <string name="select_service_place">Select Service Place</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_from_time">Select time from</string>
+    <string name="select_to_time">Select time to</string>
+    <string name="text.selected_address">Address</string>
+    <string name="select_gender">Gender</string>
+
+
+    <string-array name="day_name_array">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+
+    <string-array name="time_array">
+        <item>12 PM</item>
+        <item>1 PM</item>
+        <item>2 PM</item>
+        <item>3 PM</item>
+        <item>4 PM</item>
+        <item>5 PM</item>
+        <item>6 PM</item>
+        <item>7 PM</item>
+        <item>8 PM</item>
+        <item>9 PM</item>
+        <item>10 PM</item>
+        <item>11 PM</item>
+        <item>12 AM</item>
+        <item>1 AM</item>
+        <item>2 AM</item>
+        <item>3 AM</item>
+        <item>4 AM</item>
+        <item>5 AM</item>
+        <item>6 AM</item>
+        <item>7 AM</item>
+        <item>8 AM</item>
+        <item>9 AM</item>
+        <item>10 AM</item>
+        <item>11 AM</item>
+    </string-array>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="distance">Distance</string>
+
+    <string name="no_notification_id_message">Please restart the app</string>
+    <string name="text.reject_booking">Rejecting please wait...</string>
+    <string name="text.accept_booking">Accepting please wait...</string>
+    <string name="text.general_progress_dialog">Please wait...</string>
+
+
+    <!-- Tool bar title -->
+    <string name="tool_bar.accept_booking">Accept Booking</string>
+
+    <string name="text.please_wait">Please wait...</string>
+    <!--  Back pressed for accept booking-->
+    <string name="back_button_mesage_accept_booking">Please accept or reject </string>
+    <string name="enroute_appointment_server_success_message">Thanks Doc we will notify patient </string>
+    <string name="complete_appointment_server_success_message">Awesome Doc, We owe you</string>
+    <string name="dialog.booking_cancel_confirmation_title">Cancel Booking</string>
+    <string name="dialog.booking_cancel_confirmation_message">Are you sure want to cancel your booking</string>
+    <string name="cancelled_booking">Booking has been cancelled , we will notify the patient</string>
+    <string name="rejected_booking">Booking has been rejected</string>
+
+    <string name="at_least_18_year_old_declaration">You need to be at least 18 old years to sign up</string>
+    <string name="born_in_future">You can not be born in future</string>
+    <string name="by_signup_terms_and_condition">By signing up you are accepting </string>
+
+    <string name="doc_message_going_patient_place">Doc you opted to visit patient place</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="2dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+            android:id="@+id/expert_chossen_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="Day"
+            android:textColor="@color/black"
+            android:textSize="@dimen/choosen_text_size" />
+
+        <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+            android:id="@+id/expert_chossen_from_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/expert_chossen_day"
+            android:text="from time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/choosen_text_size" />
+
+        <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+            android:id="@+id/expert_chossen_to_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/expert_chossen_from_time"
+            android:text="to time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/choosen_text_size" />
+
+        <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+            android:id="@+id/expert_delete_chosen_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round_corner"
+            android:padding="5dp"
+            android:text="Delete"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/choosen_text_size" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

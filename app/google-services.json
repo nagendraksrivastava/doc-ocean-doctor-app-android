@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "21473275844",
+    "firebase_url": "https://dococean-expert-android.firebaseio.com",
+    "project_id": "dococean-expert-android",
+    "storage_bucket": "dococean-expert-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21473275844:android:78998ff48c94fbfe",
+        "android_client_info": {
+          "package_name": "doctor.dococean.com.doctorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21473275844-ki9406qhtsqm2uahlgkgt415sj7sqf8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "doctor.dococean.com.doctorapp",
+            "certificate_hash": "79B99B2EA5F1EBA9EB254D07B5D215EE1AD5BC1E"
+          }
+        },
+        {
+          "client_id": "21473275844-pam5qpm41cuj1oi13fjkndndd0q1b60n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQwhQ0jCZbkjR6b0_0P-C0aSYKjdNhO9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21473275844-pam5qpm41cuj1oi13fjkndndd0q1b60n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

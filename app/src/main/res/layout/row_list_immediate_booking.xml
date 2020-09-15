@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <doctor.dococean.com.doctorapp.views.custom.DococeanTextView
+            android:id="@+id/expert_service_place_indicator_TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/patient_place_indicator_color"
+            android:gravity="center_horizontal"
+            android:text="@string/doc_message_going_patient_place"
+            android:textColor="@color/button_text_color"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <include layout="@layout/common_booking_layout" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

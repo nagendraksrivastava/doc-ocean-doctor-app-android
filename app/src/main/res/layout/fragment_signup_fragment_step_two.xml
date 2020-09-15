@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/select_profession_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <doctor.dococean.com.doctorapp.views.custom.DocOceanEditText
+                android:id="@+id/expert_degree_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please enter your degree" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <doctor.dococean.com.doctorapp.views.custom.DocOceanEditText
+                android:id="@+id/expert_specialisation_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please enter you specialisation"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <doctor.dococean.com.doctorapp.views.custom.DocOceanEditText
+                android:id="@+id/expert_experiance_no_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Year Of Experiance"
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <doctor.dococean.com.doctorapp.views.custom.DocOceanEditText
+                android:id="@+id/expert_license_no_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Your license number " />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <doctor.dococean.com.doctorapp.views.custom.DocOceanEditText
+                android:id="@+id/expert_consulting_fee_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Consulting fee "
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Spinner
+            android:id="@+id/select_service_place_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+
+        <doctor.dococean.com.doctorapp.views.custom.DocOceanButton
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button_background"
+            android:text="Submit"
+            android:textColor="@color/button_text_color" />
+
+    </LinearLayout>
+</ScrollView>

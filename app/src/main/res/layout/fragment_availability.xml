@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <doctor.dococean.com.doctorapp.views.custom.DocOceanButton
+        android:id="@+id/expert_add_availability_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/button_text_color"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Add Availability"
+        android:textColor="@color/black" />
+
+    <doctor.dococean.com.doctorapp.views.custom.DocOceanButton
+        android:id="@+id/save_availabily_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@color/button_background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="SAVE"
+        android:textColor="@color/button_text_color" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/expert_availability_RV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/save_availabily_button"
+        android:layout_below="@id/expert_add_availability_button"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>
