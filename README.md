@@ -1,13 +1,15 @@
 # doctor-app-android
 
-Doc-Ocean was an startup launched in 2015 with an aim of uberising health care, the idea was connect pateints to the nearby health care professionals (Doctor, Nurses)
-and avail the services in the comfort of home. 
+# doctor-app-android
 
-Doctor app Android is basically front facing app for health care professional where they can see the request coming from patents , their address details and service
-needs , they can accept and reject the request accordingly. 
+Doc-Ocean was a startup launched in 2015 with an aim of uberising health care, the idea was to connect patients to the nearby health care professionals (Doctor, Nurses)
+and avail of the services in the comfort of home. 
 
-Unfortunatley we shutdown the startup in 6 month span of time because of lack of financial backup while we needed many goverement approval to run the business
+Doctor app Android is basically a front-facing app for health care professional where they can see the request coming from patients, their address details, and service
+needs, they can accept and reject the request accordingly. 
+
+Unfortunately we shutdown the startup in the 6-month span of time because of a lack of financial backup while we needed many government approvals to run the business
 for healthcare startups. 
 
-We have decided to opensource this so that other can get benefited by our hard work and passion.
+We have decided to opensource this so that others can get benefited from our hard work and passion.
 
