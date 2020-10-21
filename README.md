@@ -11,5 +11,7 @@ needs, they can accept and reject the request accordingly.
 Unfortunately we shutdown the startup in the 6-month span of time because of a lack of financial backup while we needed many government approvals to run the business
 for healthcare startups. 
 
+This is an Android app which was used by health care professionals to receive the order in real time. 
+
 We have decided to opensource this so that others can get benefited from our hard work and passion.
 
